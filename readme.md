@@ -28,7 +28,7 @@
 
 Le pattern **Observer** fait partie des patterns de conception dits _comportementaux_. Il définit une dépendance de type **un-à-plusieurs** entre objets : lorsqu'un objet change d'état, tous les objets qui dépendent de lui sont notifiés et mis à jour automatiquement.
 
-Ce rapport présente l'implémentation en Java de ce pattern à partir d'un diagramme de classes UML. Le projet est organisé comme un projet Maven, avec le package `obs` pour le pattern et le package `net.youssfi` pour la classe de test.
+Ce rapport présente l'implémentation en Java de ce pattern à partir d'un diagramme de classes UML. Le projet est organisé comme un projet Maven, avec le package `obs` pour le pattern et le package `hattabi.youness` pour la classe de test.
 
 ---
 
@@ -218,7 +218,7 @@ public class ObserverImpl2 implements Observer {
 ## 5. Tests et Résultats
 
 ```java
-package net.youssfi;
+package hattabi.youness;
 
 import obs.ObservableImpl;
 import obs.ObserverImpl1;
